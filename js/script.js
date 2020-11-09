@@ -21,9 +21,6 @@ function gototop() {
     document.documentElement.scrollTop = 0;
 }
 
-function show(){
-    alert("Welcome to the Website of Literary Society G.E.C. Banka");
-}
 
 
 
@@ -99,16 +96,4 @@ function display(x){
     }
     
 }
-    /*
-    document.addEventListener("fullscreenchange", function (event) {
-        if (document.fullscreenElement) {
-            // fullscreen is activated
-            //document.exitFullscreen();
-            document.querySelector("#quiz").requestFullscreen();
-        } else {
-            // fullscreen is cancelled
-            //document.querySelector("#quiz").requestFullscreen();
-            document.exitFullscreen();
-        }
-    });
-*/
+
