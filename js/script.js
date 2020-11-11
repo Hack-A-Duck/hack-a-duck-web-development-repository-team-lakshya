@@ -59,7 +59,7 @@ function gofullscreen(){
 function gofullgallery(){
     if (document.fullscreenEnabled) {
         console.log("going to Fullscreen mode");
-        document.getElementById('container').requestFullscreen();
+        document.getElementById('controls').requestFullscreen();
         
     }
 }
